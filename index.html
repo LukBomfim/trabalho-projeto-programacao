@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Startup Dashboard - Comunicação Interna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Dashboard de Comunicação Interna</h1></header>
+    <main>
+        <section class="column" id="user-sec">
+            <h2><i class="icon">👤</i> Usuários</h2>
+            <div id="users-container">Carregando usuários...</div>
+        </section>
+        <section class="column" id="post-sec">
+            <h2><i class="icon">📝</i> Postagens</h2>
+            <div id="posts-container">Selecione um usuário para ver os posts.</div>
+        </section>
+        <section class="column" id="comment-sec">
+            <h2><i class="icon">💬</i> Comentários</h2>
+            <div id="comments-container">Selecione um post para ver comentários.</div>
+        </section>
+    </main>
+
+    <script src="api.js"></script>
+    <script src="usuarios.js"></script>
+    <script src="posts.js"></script>
+    <script src="comentarios.js"></script>
+</body>
+</html>
